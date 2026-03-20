@@ -24,12 +24,7 @@ setup_twitter_oauth(consumer_key="zzzzz",
                     access_token="zzzzz",
                     access_secret="zzzz")
 
-# If/When asked:
-# Use a local file to cache OAuth access credentials between R sessions?
-#1: Yes
-#2: No
 
-# Answer: 2
 
 
 tweetList <- searchTwitter("#zika", n=500, lang=c("en", "eng"), since="2017-01-01")
